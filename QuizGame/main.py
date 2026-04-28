@@ -11,6 +11,7 @@ for q in question_data:
     new_question = Question(question_text = question, question_answer = answer)
     question_bank. append(new_question)
     
+    
 
 quiz = QuizBrain(question_bank)
 while quiz.more_questions:
